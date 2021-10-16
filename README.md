@@ -15,13 +15,10 @@
 为了模拟现实环境，我们假设有两台老虎机，标记为```A```和```B```  
 假设```A```的收益概率分布为```µ(均值) = 500，σ(标准差) = 50```的正态分布:  
 ![](http://latex.codecogs.com/svg.latex?N_A(\mu=500,\sigma=50))
-$$
-N_A(\mu=500,\sigma=50)
-$$
+  
 假设```B```的收益概率分布为```µ(均值) = 550，σ(标准差) = 100```的正态分布:  
-$$
-N_B(\mu=550,\sigma=100)
-$$
+![](http://latex.codecogs.com/svg.latex?N_B(\mu=550,\sigma=100))
+  
 两者的概率分布图像如下:
 
 ![](https://github.com/LinShengfeng-code/Multi-Armed-Bandit/blob/main/%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83%E5%9B%BE%E5%83%8F.jpg)
