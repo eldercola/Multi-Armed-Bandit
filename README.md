@@ -49,7 +49,7 @@ for i in len(bandits):  # 假设有一个存放Reward列表的列表bandits
 Q值是衡量一台老虎机收益的指标, 其计算方法比较简单, 即求老虎机收益序列(即```Reward```序列)的平均值:  
 ![](https://latex.codecogs.com/svg.image?Q(a)=&space;{\Sigma~Reward_a&space;\over&space;len(Reward_a)})
   
-也可以用另一个思路理解: ```t```时刻某老虎机```a```的```Q值```,是之前选择该老虎机获得的总收益除以选择它的次数,公式中```1(Ai = a)```表示```i```时刻的动作(也就是选择的老虎机)如果是```a```则标记为1,否则为0.
+也可以用另一个思路理解: ```t```时刻某老虎机```a```的```Q值```,是之前选择该老虎机获得的总收益除以选择它的次数,公式中```1(Ai = a)```表示```i```时刻的动作(也就是选择的老虎机)如果是```a```则标记为1,否则为0.  
 ![](https://latex.codecogs.com/svg.image?Q_t(a)=&space;{\Sigma_{i=1}^{t-1}R_i*1(A_i=a)&space;\over&space;\Sigma_{i=1}^{t-1}1(A_i=a)})
   
 其计算代码如下:
