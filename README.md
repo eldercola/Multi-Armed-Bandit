@@ -1,3 +1,5 @@
+有一说一, github的markdown文件搞公式实在也太麻烦了!!!
+
 # 多臂老虎机问题
 本实验跟随[bilibili-多臂老虎机问题视频介绍](https://www.bilibili.com/video/BV1yV411B7a4)
 
@@ -12,6 +14,7 @@
 ## 2. 问题建模(简化版)
 为了模拟现实环境，我们假设有两台老虎机，标记为```A```和```B```  
 假设```A```的收益概率分布为```µ(均值) = 500，σ(标准差) = 50```的正态分布:  
+![](http://latex.codecogs.com/svg.latex?N_A(\mu=500,\sigma=50))
 $$
 N_A(\mu=500,\sigma=50)
 $$
