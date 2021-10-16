@@ -21,7 +21,7 @@ N_B(\mu=550,\sigma=100)
 $$
 两者的概率分布图像如下:
 
-![](概率分布图像.jpg)
+![](https://github.com/LinShengfeng-code/Multi-Armed-Bandit/blob/main/%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83%E5%9B%BE%E5%83%8F.jpg)
 
 **注意: 老虎机的收益概率分布对玩家是不可知的, 玩家只能通过不断尝试来逼近它们**
 
