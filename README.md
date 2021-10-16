@@ -1,4 +1,7 @@
 有一说一, github的markdown文件搞公式实在也太麻烦了!!!
+```main.py```是主程序.  
+```utils.py```是我写的工具包.  
+```概率分布图像.jpg```是本文件中的图像  
 
 # 多臂老虎机问题
 本实验跟随[bilibili-多臂老虎机问题视频介绍](https://www.bilibili.com/video/BV1yV411B7a4)
