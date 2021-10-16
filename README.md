@@ -47,7 +47,7 @@ for i in len(bandits):  # 假设有一个存放Reward列表的列表bandits
 ### 3.1 Q值(行动价值估计值)计算
 
 Q值是衡量一台老虎机收益的指标, 其计算方法比较简单, 即求老虎机收益序列(即```Reward```序列)的平均值:  
-![](http://latex.codecogs.com/svg.latex?Q(a)= {\Sigma~Reward_a\overlen(Reward_a)})
+![](http://latex.codecogs.com/svg.latex?Q(a)= {\\Sigma~Reward_a\\overlen(Reward_a)})
   
 也可以用另一个思路理解: ```t```时刻某老虎机```a```的```Q值```,是之前选择该老虎机获得的总收益除以选择它的次数,公式中```1(Ai = a)```表示```i```时刻的动作(也就是选择的老虎机)如果是```a```则标记为1,否则为0.
 $$
